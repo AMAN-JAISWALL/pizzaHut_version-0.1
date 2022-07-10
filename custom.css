@@ -1,0 +1,207 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 100%;
+    /* height: 2000px; */
+    /* background-color: antiquewhite; */
+}
+.header{
+    width: 100%;
+    height: 70px;
+    background-color: white;
+    box-shadow: inset 0px -1px 9px black;
+    /* box-shadow: rgba(0, 0, 0, 0.3); */
+    z-index: 1;
+}
+
+.header-flex{
+    width: 60%;
+    height: 70px;
+    /* background-color: rgb(194, 114, 114); */
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.logo img {
+    width: 72px;
+    padding-left: 20px;
+}
+.signin a{
+    padding-right: 20px;
+    text-decoration: dashed;
+    color: silver;
+}
+.main1 img {
+    margin-bottom: 200px;
+    width: 100%;
+}
+.main2 h2 {
+    text-align: center;
+}
+.main2_flexContainer{
+    width: 100%;
+    /* height: 700px; */
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    /* margin: 30px; */
+    /* align-items: center; */
+
+}
+.mainItem{
+    width: 500px;
+    /* height: 500px; */
+    /* background-color: black; */
+}
+.mainItem img {
+    width: 500px;
+    margin-top: 30px;
+    padding: 12px;    
+}
+.btn1 button {
+     display: block;
+    margin: auto;
+    background-color: #4CAF50;
+    width: 1000px;
+    border-radius: 10px;
+    padding: 18px;
+    font-size: 24px;
+    color: white;
+    outline: none;
+    border: none;
+    cursor: pointer;
+}
+.btn1 button:hover{
+    transform: scale(0.98);
+    background-color: #37b03b;
+}
+
+.footer{
+    background-color: black;
+    width: 100%;
+    height: 600px;
+    margin-top: 40px;
+}
+
+
+.footer_flex{
+    display: flex;
+    justify-content: center;
+
+}
+
+
+.footItem{
+    /* background-color: coral; */
+    width: 250px;
+    height: 150px;
+    margin: 20px;
+}
+.footItem h4{
+    color: white;
+    font-size: 18px;
+    padding-left: 16px;
+    margin-bottom: 10px;
+    /* padding: 18px; */
+}
+
+.aman a {
+    color: white;
+    text-decoration: none;
+    padding: 18px;
+}
+
+.appstore{
+    width: 100%;
+    height: 80px;
+    /* background-color: #fff; */
+}
+
+
+.appFlex{
+    width: 900px;
+    height: 80px;
+    /* background-color: #37b03b; */
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.apple img{
+    width: 206px;
+    cursor: pointer;
+}
+.playstore img {
+    /* width: 50px; */
+    width: 197px;
+    margin-top: 17px;
+    cursor: pointer;
+}
+
+.feedback{
+    /* background-color: aliceblue; */
+    height: 80px;
+    width: 100%;
+}
+
+.feedback_flex{
+    display: flex;
+    /* background-color: #37b03b; */
+    justify-content: space-between;
+    height: 80px;
+    width: 1200px;
+    margin: auto;
+}
+.para{
+    display: -webkit-box;
+    margin-top: 30px;
+    font-size: 18px;
+    margin-left: 10px;
+}
+.para p {
+    margin-right: 24px;
+    color: white;
+}
+.para button{width: 200px;
+    height: 60px;
+    margin-top: -24px;
+    background-color: darkgrey;
+    border-radius: 5px;
+    font-size: larger;
+    cursor: pointer;
+    border: 0;
+}
+.para button:hover{
+    outline: none;
+    background-color: rgb(216, 212, 212);
+    transform: scaleX(0.96);
+    
+}
+
+
+
+.social_follow p {  
+    margin-left: 38px;
+    font-size: 20px;
+    color: white;
+}
+
+
+ .social_follow img {
+    margin-right: 10px;
+    margin-top: -48px;
+    width: 160px;
+    cursor: pointer;
+ }
+ .LastPara{
+    color: white;
+    /* background-color: #37b03b; */
+    width: 100%;
+    text-align: center;
+    margin-top: 30px;
+ }
